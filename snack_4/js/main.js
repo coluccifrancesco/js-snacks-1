@@ -4,12 +4,12 @@
 let oddNumbers = [];
 
 //  chiedi 6 volte un numero
-for (let i = 0; i < 6; i++){
+for (let i = 0; i < 6; i++){ 
     let numbers = Number(prompt('Inserisci un numero cortesemente che magari sto script torna'));    
-    if (numbers % 2 != 0){
+    if (numbers % 2 == 1){
         oddNumbers.push(numbers);
     }
 }
 
-console.log(oddNumbers)
+console.log(oddNumbers);
 //  se numero dispari inserisci nell'array
