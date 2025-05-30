@@ -1,5 +1,3 @@
-//  http://127.0.0.1:3000/index.html
-
 //  Utente inserisce due numeri in successione
 const valueOne = Number(prompt("Inserisci un valore"));
 const valueTwo = Number(prompt("Inserisci un altro valore"));
