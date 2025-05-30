@@ -6,11 +6,7 @@ const somma = [];
 // software deve chiedere per 10 volte di inserire un numero
 for (let i = 0; i < 10; i++){
     numeri.push = Number(prompt('Scegli un numero')); 
-}
-
-// programma stampa la somma dei numeri inseriti
-for (let i = 0; i < numeri.length; i++){
-    const numeriCounter = [i];
+        const numeriCounter = [i];
     if (i == 0){
         somma.unshift(i);
     } else if(i >= 1){
@@ -19,5 +15,7 @@ for (let i = 0; i < numeri.length; i++){
     } else {
         break
     }
-    console.log(somma)
 }
+console.log(somma)
+
+// programma stampa la somma dei numeri inseriti
