@@ -6,7 +6,7 @@ const valueTwo = Number(prompt("Inserisci un altro valore"));
 if (valueOne > valueTwo){
     console.log(valueOne);
 } else if (valueOne == valueTwo){
-    console.log(valueOne + ' = ' + valueTwo);
+    console.log('I valori sono uguali:' + valueOne + ' = ' + valueTwo);
 } else {
     console.log(valueTwo);
 }
