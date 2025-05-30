@@ -5,8 +5,9 @@ let nChoice = Number(prompt('Inserisci un numero'))
 
 // stampa il cubo dei primi N numeri 
 for (let i = 1; i < 6; i++){
-    let numberTimes = ((nChoice * nChoice) * i);
-    console.log(numberTimes);
+    let numberTimes = (nChoice * nChoice);
+    let result = (numberTimes * nChoice)
+    console.log(result);
 }
 
 console.log(' ');
@@ -16,6 +17,7 @@ let numberTwo = 2;
 squareResult = null; 
 
 for(let i = 1; i < 1001; i++){
-    let squareResult = ((numberTwo * numberTwo) * i);
+    let square = (numberTwo * numberTwo);
+    let squareResult = (square * numberTwo);
     console.log(squareResult);
 }
