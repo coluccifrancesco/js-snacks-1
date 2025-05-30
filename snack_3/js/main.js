@@ -8,14 +8,14 @@ for (let i = 0; i < 10; i++){
     numeri.push = Number(prompt('Scegli un numero')); 
         const numeriCounter = [i];
     if (i == 0){
-        somma.unshift(i);
+        somma.unshift(numeriCounter);
     } else if(i >= 1){
-        somma.push(+ i);
-        somma.push();
-    } else {
+        somma.push(+ numeriCounter);
+    } else if(i >10){
         break
     }
 }
+
 console.log(somma)
 
 // programma stampa la somma dei numeri inseriti
