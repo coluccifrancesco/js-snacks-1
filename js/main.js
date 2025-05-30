@@ -5,6 +5,8 @@ const valueTwo = Number(prompt("Inserisci un altro valore"));
 //  software stampa il maggiore
 if (valueOne > valueTwo){
     console.log(valueOne);
+} else if (valueOne == valueTwo){
+    console.log(valueOne + ' = ' + valueTwo);
 } else {
     console.log(valueTwo);
 }
