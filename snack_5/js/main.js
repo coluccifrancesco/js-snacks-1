@@ -3,12 +3,11 @@
 // N numero è indicato dall'utente
 let nChoice = Number(prompt('Inserisci un numero'))
 
+// stampa il cubo dei primi N numeri 
 for (let i = 1; i < 6; i++){
     let numberTimes = ((nChoice * nChoice) * i);
     console.log(numberTimes);
 }
-
-// stampa il cubo dei primi N numeri 
 
 console.log(' ');
 
